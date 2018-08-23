@@ -188,11 +188,10 @@
 
     width: 20px;
     height: 20px;
-
-    content: '•';
+content: url(../img/nonact.png);
+   
     text-align: center;
 
-    opacity: .25;
     color: black;
 
     -webkit-font-smoothing: antialiased;
@@ -201,5 +200,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    content: url(../img/actdot.png);
 }

@@ -5,7 +5,9 @@
  		 fade:true,
  		 arrows:true,
     dots: true,
+ 
 
   });
-});
+ 
 
+});
