@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: API_ID, onlyWidgets: true});
+</script>
+
 	<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -41,7 +47,7 @@
 
   
   
-                           
+                           <div id="vk_comments"></div>
                         
                    
 
@@ -214,10 +220,11 @@
 		
 		<script src="../libs/html5shiv.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="../libs/slick.js"></script>
-	
+	<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
 			<script src="../js/common.js" type="text/javascript"></script>
 
-<script type="text/javascript" charset="utf-8" src="http://kommentarii.onlinevinternete.ru/komments/js/koment.js"></script>
 
 	</body>
 	</html>
